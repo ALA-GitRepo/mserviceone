@@ -16,7 +16,7 @@ public class MserviceoneApplication {
 		SpringApplication.run(MserviceoneApplication.class, args);
 	}
 
-	@Value("${configmessage:default}")
+	@Value("${configmessage:default1}")
 	private String message;
 
 	@GetMapping("/message")
